@@ -33,7 +33,8 @@ const initState = window.localStorage['redux-store']
   ? JSON.parse(window.localStorage['redux-store'])
   : {}
 
-const store = storeFactory(initState, [confirmer, logger])
+// const store = storeFactory(initState, [confirmer, logger])
+const store = storeFactory(initState)
 
 window.store = store
 

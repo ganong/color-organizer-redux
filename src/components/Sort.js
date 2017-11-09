@@ -3,7 +3,7 @@ import { sortMap, sortMapReverse } from '../constants'
 
 
 const handleSortChange = sortColors => ({ target: { value: sortBy } }) =>
-sortColors(sortBy)
+  sortColors(sortBy)
 
 const Sort = ({ sortColors, sortVal}) => (
   <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
